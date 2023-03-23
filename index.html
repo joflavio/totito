@@ -5,14 +5,17 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div class="center">
   <h1>Totito</h1>
+  <h2>Inteligencia artificial</h2>
+    <br> 
 
     <br> 
-    <fieldset id="group2">
-      <input type="radio" name="group2" checked id="X" onclick="handleGamerClick(this);">X</input>
-      <input type="radio" name="group2" id="O" onclick="handleGamerClick(this);">O</input>
-    </fieldset>
-    <br> 
+    <div class="center">
+      <fieldset id="group2">
+        <input type="radio" name="group2" checked id="X" onclick="handleGamerClick(this);">X</input>
+        <input type="radio" name="group2" id="O" onclick="handleGamerClick(this);">O</input>
+      </fieldset>
     <table>
       <tr>
         <td id="0" onclick="handleBoxClick(this.id);"></td>
@@ -30,8 +33,10 @@
         <td id="8" onclick="handleBoxClick(this.id);"></td>
       </tr>
     </table>
+    </div>
     <div id="message"></div>
-    <button id="reset" onclick="reset()">Reset</button>
+    <button id="reset" onclick="reset()">Resetear!!!</button>
     <script src="script.js"></script>
+  </div>
   </body>
 </html>

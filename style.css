@@ -1,5 +1,6 @@
 table {
   border-collapse: collapse;
+  text-align: center;
 }
 
 fieldset{
@@ -35,4 +36,11 @@ td:hover {
 	font-weight: bold;
 	margin-top: 20px;
 	text-align: center;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align:center;
 }
