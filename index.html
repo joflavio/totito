@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Totito IA</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <h1>Totito</h1>
+
+    <br> 
+    <fieldset id="group2">
+      <input type="radio" name="group2" checked id="X" onclick="handleGamerClick(this);">X</input>
+      <input type="radio" name="group2" id="O" onclick="handleGamerClick(this);">O</input>
+    </fieldset>
+    <br> 
+    <table>
+      <tr>
+        <td id="0" onclick="handleBoxClick(this.id);"></td>
+        <td id="1" onclick="handleBoxClick(this.id);"></td>
+        <td id="2" onclick="handleBoxClick(this.id);"></td>
+      </tr>
+      <tr>
+        <td id="3" onclick="handleBoxClick(this.id);"></td>
+        <td id="4" onclick="handleBoxClick(this.id);"></td>
+        <td id="5" onclick="handleBoxClick(this.id);"></td>
+      </tr>
+      <tr>
+        <td id="6" onclick="handleBoxClick(this.id);"></td>
+        <td id="7" onclick="handleBoxClick(this.id);"></td>
+        <td id="8" onclick="handleBoxClick(this.id);"></td>
+      </tr>
+    </table>
+    <div id="message"></div>
+    <button id="reset" onclick="reset()">Reset</button>
+    <script src="script.js"></script>
+  </body>
+</html>
